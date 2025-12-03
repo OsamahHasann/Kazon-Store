@@ -1,0 +1,64 @@
+    body{
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(
+         135deg,
+         rgba(20, 20, 20, 0.95),
+         rgba(40, 40, 40, 0.8),
+         rgba(10, 10, 10, 0.9)
+                                   );
+         background-attachment: fixed;
+         color: #ffd64f;
+    }
+    .container{
+        width: 300px;
+        height: 320px;
+        background-color: #0a0a0aff;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: auto auto;
+        text-align: center;
+        border-radius: 40px;
+        box-shadow: 0px 6px 45px rgba(245, 213, 79, 0.2);
+    }
+    .login_container{
+        width: 300px;
+        height: 300px;
+        background-color: #0a0a0aff;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: auto auto;
+        text-align: center;
+        border-radius: 40px;
+        box-shadow: 0px 6px 45px rgba(245, 213, 79, 0.2); 
+    }
+    button{
+        background-color: #ffd64f;
+        border: none;
+        width: 100px;
+        height: 20px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color: rgba(0, 255, 119, 0.349);
+        color: #e0e0e0;
+    }
+    input{
+      background-color: rgba(40, 40, 40, 0.8); 
+      border: none; 
+      border-radius: 5px;
+      height: 20px;
+    }
+    .footer a{
+        color: rgba(0, 255, 119, 0.349);
+    }
+    .login_container a{
+        color: rgba(0, 255, 119, 0.349);
+    }

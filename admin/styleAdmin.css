@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+     background: linear-gradient(
+         135deg,
+         rgba(20, 20, 20, 0.95),
+         rgba(40, 40, 40, 0.8),
+         rgba(10, 10, 10, 0.9)
+                                   );
+     background-attachment: fixed;
+}
+.sidebar_container{
+    display: flex;
+    height: 100%;
+}
+
+/*   SIDEBAR  STYLE   */
+.sidebar_container .sidebar{
+    background-color: #0a0a0aff;
+    color: #ffd64f;
+    height: 100%;
+    width: 40%;
+}
+.sidebar_container .sidebar h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.sidebar_container .sidebar ul li{
+    font-size: 25px;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e01c;
+
+}
+.sidebar_container .sidebar ul li a{
+    color: #e0e0e0;
+    display: block;
+    padding: 10px;
+}
+.sidebar_container .sidebar ul li a:hover{
+    color: rgba(0, 255, 119, 0.349);
+}
+
+.sidebar_container .sidebar ul li i{
+    margin-right:25px ;
+}
+/*    //  SIDEBAR STYLE  //   */
+
+/*    SECTION STYLE    */
+.sidebar_container .content_sec{
+    width: 100%;
+    text-align: center;
+    margin-right: 40px;
+    padding: 20px;
+}
+.sidebar_container .content_sec label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 40px;
+    margin-left: 40px;
+    text-align: center;
+    color: #ffd64f;
+
+}
+.sidebar_container .content_sec input{
+    width: 70%;
+    height: 30px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #2c2f33;
+    border-radius: 15px;
+    background-color: #0a0a0aff;
+    color: #e0e0e0;
+
+}
+.sidebar_container .content_sec .add{
+    background-color: #ffd64f;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.sidebar_container .content_sec .add:hover{
+    background-color: rgba(0, 255, 119, 0.349);
+    color: #e0e0e0;
+}
+
+/*    TABLE STYLE   */
+.sidebar_container table{
+    background-color:#2c2f33 ;
+    color: #e0e0e0;
+    width: 100%;
+    border-collapse: collapse;
+}
+.sidebar_container table th,td{
+    font-size: 22px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid ;
+}
+.sidebar_container table th{
+    color: #ffd64f;
+    border-color: #e0e0e0;
+}
+.sidebar_container table .delete{
+    background-color: rgba(0, 255, 119, 0.349);
+    color: #e0e0e0;
+    border: none;
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sidebar_container table .delete:hover{
+    background-color: #ffd64f;
+    color: black;
+}
+
+/*   // TABLE STYLE //  */
+
+/*    //  SECTION STYLE  //     */
+
+
+
+
+/*    ADD PRODUCT PAGES STYLE   */
+
+ body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+     135deg,
+     rgba(20, 20, 20, 0.95),
+     rgba(40, 40, 40, 0.8),
+     rgba(10, 10, 10, 0.9)
+                               );
+     background-attachment: fixed;
+ }
+.product_form{
+   background-color: #0a0a0aff;
+   width: 70%;
+   margin: 10px;
+   color: #e0e0e0; 
+   border-radius: 30px;
+   padding: 10px;
+   box-shadow: 0px 6px 45px rgba(245, 213, 79, 0.2);    
+}
+.product_form h1{
+    color: #ffd64f;
+    padding: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+input{
+   background-color: rgba(40, 40, 40, 0.8); 
+   border: none; 
+   border-radius: 5px;
+   color: #e0e0e0;
+   width: 80%;
+   padding: 12px;
+   margin-bottom: 10px;
+}
+.button{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #ffd64f;
+    color: #0d0d0d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.button:hover {
+    background-color: rgba(0, 255, 119, 0.349);
+    color: #e0e0e0;
+    }
+#form_control{
+  border: 1px solid #ffd64f;
+  border-radius: 8px;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+
+
+
+
+/*    //  ADD PRODUCT PAGES STYLE   //   */
+
+/*    PRODUCTS PAGE STYLE     */
+.update_btn{
+    background-color: rgba(0, 255, 119, 0.349);
+    color: #e0e0e0;
+    border: none;
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete_btn{
+    background-color: rgba(255, 0, 0, 0.35);
+    color: #e0e0e0;
+    border: none;
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sidebar_container table img{
+    width: 50px;
+    height: 70px;
+}
+/*     //  PRODUCTS PAGE STYLE   //     */
+
